@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faticaixilhos | Especialistas em Alumínio e Portões</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">FATI<span>CAIXILHOS</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#orcamento">Orçamentos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Qualidade de Exportação agora em Portugal</h1>
+            <p>Especialistas em caixilharia de alumínio e portões sob medida com o rigor do mercado internacional.</p>
+            <a href="#servicos" class="btn-primary">Ver Nossos Produtos</a>
+        </div>
+    </section>
+
+    <section id="servicos" class="services">
+        <h2>Nossos Serviços</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-window-maximize"></i>
+                <h3>Caixilharia</h3>
+                <p>Janelas e portas de alta performance térmica e acústica.</p>
+                <span class="price">Desde 250€</span>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-gate"></i>
+                <h3>Portões Sob Medida</h3>
+                <p>Design exclusivo e automatização para a sua residência.</p>
+                <span class="price">Sob Consulta</span>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-tools"></i>
+                <h3>Manutenção</h3>
+                <p>Assistência técnica especializada em sistemas de alumínio.</p>
+                <span class="price">Desde 50€</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="orcamento" class="calculator">
+        <h2>Simulador Rápido</h2>
+        <p>Selecione o serviço para uma estimativa base:</p>
+        <div class="calc-box">
+            <select id="service-select">
+                <option value="0">Selecione um serviço...</option>
+                <option value="350">Janela de Alumínio (Standard)</option>
+                <option value="1200">Portão de Garagem (Base)</option>
+                <option value="150">Reparação Geral</option>
+            </select>
+            <div class="result">
+                <span>Valor Estimado: </span>
+                <strong id="price-display">0€</strong>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Faticaixilhos - Qualidade em cada detalhe. Portugal | UK</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
